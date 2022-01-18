@@ -11,16 +11,131 @@
   src: url("https://use.typekit.net/kas3iif.css");
 }
 
+body {
+  font-size: 80%;
+  font-family: open-sans, sans-serif;
+  letter-spacing: auto;
+  background-image: url("imgs/home-temp-head.png");
+  background-repeat: no-repeat;
+  background-position-x: 309px;
+  background-position-y: 476px;
+
+  /* width: 100%;
+  height: auto; */
+  background-color: #c7e1eb;
+}
+
+.container {
+  width: 100%;
+  margin: auto 300px auto 300px;
+
+  /* border-color: red;
+  border-width: 50px; */
+}
+
+#home-page {
+  /* max-width: 1920px; */
+  margin: auto;
+
+  /* margin-top: 50px;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-bottom: 200px; */
+  position: relative;
+}
+
+#about-me {
+  width: 100%;
+  margin-top: 400px;
+  /* margin-left: 900px;
+  margin-right: 300px; */
+  margin-bottom: auto;
+}
+
+#main-image {
+  background-position-x: 330px;
+  background-position-y: 150px;
+}
+/* 
+.responsive {
+  width: 100%;
+  height: auto;
+} */
+
+/*Nav Bar*/
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 50px;
+}
+#navbar a:hover {
+  color: #edb28e;
+}
+#navbar li {
+  list-style-type: none;
+  margin-top: 25px;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/*headers*/
+
 h1,
 h2,
 h3 {
-  font-family: brandon-grotesque, sans-serif;
+  font-family: "brandon-grotesque", regular, sans-serif;
   font-weight: 500;
   font-style: normal;
+}
+
+h1.box {
+  /* max-width: 712px; */
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+  font-size: 90px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  left: 450px;
+  top: 445px;
+}
+
+h2.box {
+  max-width: 451px;
+  text-align: center;
+  font-size: 60px;
+  color: #edb28e;
+  background-color: black;
+}
+
+h3.box {
+  max-width: 600px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  left: 450px;
+  top: 600px;
+}
+
+.color-em {
+  color: #edb28e;
 }
 
 p {
   font-family: open-sans, sans-serif;
   font-weight: 400;
+  font-size: 25px;
   font-style: normal;
+}
+
+/* About me */
+#p.intro: {
+  padding: 50%;
 }
