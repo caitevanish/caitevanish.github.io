@@ -1,2 +1,2 @@
 # caitevanish.github.io
-devCodeCamp website project, week 4.
+Project #4 for devCodeCamp (week 5). Portfolio
