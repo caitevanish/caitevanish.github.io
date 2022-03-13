@@ -1,9 +1,11 @@
-FROM nginx:lts-alpine3.14 as build
+FROM nginx:alpine
 
-WORKDIR /app
+WORKDIR /portfolio
 
-COPY . ./
+COPY ./ ./
+COPY ./ /usr/share/nginx/html
 
 EXPOSE 80
 
-CMD ["nginx", "index.html", "daemon off;"]
+
+CMD ["nginx", "-g", "daemon off;"]
