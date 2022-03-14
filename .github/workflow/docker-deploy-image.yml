@@ -10,12 +10,12 @@ env:
 on:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
+  # pull_request:
+  #   branches: [main]
   workflow_dispatch:
 
 jobs:
-  deploy_aws:
+  deploy-portfolio-to-aws:
     runs-on: ubuntu-latest
 
     steps:
