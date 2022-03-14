@@ -4,8 +4,8 @@ env:
   DATE_STAMP: $(date +%s)
 
 on:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
   # pull_request:
   #   branches: [main]
   workflow_dispatch:
@@ -23,8 +23,8 @@ jobs:
       - name: Build the docker image
         run: docker build . -f Dockerfile --tag caitevanish/portfolio-cet:latest
 
-      - name: Add "date-stamp" tag to the image
-        run: docker image tag caitevanish/portfolio-cet:latest caitevanish/portfolio-cet:${{env.date-stamp}}
+      # - name: Add "date-stamp" tag to the image
+      #   run: docker image tag caitevanish/portfolio-cet:latest caitevanish/portfolio-cet:${{env.date-stamp}}
 
       - name: Login to Docker Hub
         uses: docker/login-action@v1
