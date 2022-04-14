@@ -1,22 +1,40 @@
+/*
+Theme Name: CET Portfolio Standard Theme 
+Theme URI: 
+Description: The standard Genesis child theme on which all __ sites are built.
+Author: Caitlin Evanishyn-Troup
+Author URI: 
+Version: 1.0
+Template: genesis
+*/
+
+/* ## Imports
+--------------------------------------------- */
+
 @charset "utf-8";
 
 @font-face {
-  font-family: "brandon-grotesque, sans-serif";
-  src: url("https://use.typekit.net/kas3iif.css");
+  font-family: 'brandon-grotesque, sans-serif';
+  src: url('https://use.typekit.net/kas3iif.css');
 }
 @font-face {
-  font-family: "open-sans, sans-serif";
-  src: url("https://use.typekit.net/kas3iif.css");
+  font-family: 'open-sans, sans-serif';
+  src: url('https://use.typekit.net/kas3iif.css');
 }
 
-/*----------------------main---*/
+/* # HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+/* ## Baseline Normalize
+--------------------------------------------- */
+
 body {
   font-size: 80%;
   font-family: open-sans, sans-serif;
   letter-spacing: auto;
   width: 100%;
   /* margin: auto 300px auto 300px; */
-  background-image: url("imgs/home-temp-head.png");
+  background-image: url('imgs/home-temp-head.png');
   background-repeat: no-repeat;
   background-position-x: 309px;
   background-position-y: 560px;
@@ -35,12 +53,16 @@ p {
   font-style: normal;
 }
 
-/*----------------------headers + boxes---*/
+/* ## Typographical Elements
+--------------------------------------------- */
+
+/* ## Headings
+--------------------------------------------- */
 
 h1,
 h2,
 h3 {
-  font-family: "brandon-grotesque", regular, sans-serif;
+  font-family: 'brandon-grotesque', regular, sans-serif;
   font-weight: 500;
   font-style: normal;
 }
@@ -110,7 +132,7 @@ h3.box {
 
 /*----------------------Home Page */
 
-#home-page {
+#hero {
   /* max-width: 1920px; */
   margin: 50px 300px 185px 300px;
   /* margin-top: 50px;
@@ -192,7 +214,7 @@ p.intro {
   padding: 100px 300px 500px 300px;
   position: relative;
   background-color: #0f1637;
-  background-image: url("imgs/Contact-section.png");
+  background-image: url('imgs/Contact-section.png');
   background-repeat: no-repeat;
   color: white;
 }
