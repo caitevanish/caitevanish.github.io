@@ -4,15 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caitlin Evanishyn Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
 
   <body>
     <header>
-      <nav id="navbar">
+      <nav class="navbar">
         <ul>
-          <li><a href="#home-page">Home</a></li>
-          <li><a href="#about-me">About</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -20,18 +21,20 @@
     </header>
 
     <main>
-      <section id="hero">
-        <h1 class="box">Hi. I'm <a class="color-em">Caitlin</a></h1>
-        <h3 class="box">Front end developer + Designer</h3>
-        <div id="main-image">
-          <img
-            src="imgs/home-circles.png"
-            alt="Circles within circles in the shape of a cloud"
-            class="responsive"
-          />
+      <div id="home">
+        <div class="hero">
+          <h1 class="box">Hi. I'm <a class="name">Caitlin</a></h1>
+          <h3 class="box">Full stack developer + Designer</h3>
+          <div id="main-image">
+            <img
+              src="imgs/home-circles.png"
+              alt="Circles within circles in the shape of a cloud"
+              class="responsive"
+            />
+          </div>
         </div>
-      </section>
-      <section id="about-me">
+      </div>
+      <section id="about">
         <div class="intro">
           <h2 class="box">About Me</h2>
           <p id="intro"></p>
