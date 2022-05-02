@@ -241,6 +241,7 @@ h3 {
   /* padding: 100px 300px 500px 300px; */
   margin: 0;
   position: relative;
+  height: 50vh;
   background-color: #0f1637;
   background-image: url('imgs/Contact-section.png');
   background-repeat: no-repeat;
@@ -249,11 +250,11 @@ h3 {
 }
 .contact-wrapper {
   padding-left: 75%;
-  width: 600px;
+  /* width: 600px; */
   margin: auto;
 }
 .CTA {
-  margin: 120px 300px 160px 300px;
+  /* margin: 120px 300px 160px 300px; */
   padding-left: 50%;
 }
 /*----------------------Footer */
